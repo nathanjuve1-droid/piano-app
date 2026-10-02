@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piano Practice Room</title>
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1d1b; --muted: #6b6a66; --line: #e4e1da; --accent: #1f5f8b; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161615; --fg: #ecebe7; --muted: #a3a29d; --line: #2c2b29; --accent: #7fb6dd; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Arial, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .en { direction: ltr; text-align: left; }
+  .muted { color: var(--muted); }
+  section { border-top: 1px solid var(--line); padding-top: 20px; margin-top: 28px; }
+  a { color: var(--accent); }
+  .credit { font-size: 18px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>חדר התרגול</h1>
+  <p class="muted">אפליקציה אישית לתרגול פסנתר</p>
+  <p>אפליקציה לשימוש אישי, שרצה על המחשב שלי ומתחברת לפסנתר דיגיטלי. כשאני מוסיף שיר ללמידה, היא מציעה BPM, סולם ומשקל, ואני מאשר אותם מול ההקלטה.</p>
+  <p class="credit">נתוני BPM וסולם: <a href="https://getsongbpm.com">GetSongBPM</a></p>
+
+  <section class="en" dir="ltr" lang="en">
+    <h2>Piano Practice Room</h2>
+    <p>A personal piano practice app that runs locally and connects to a digital piano. When a song is added for learning, the app suggests its tempo, key and time signature, which are then confirmed against the recording.</p>
+    <p class="credit">Song tempo and key data provided by <a href="https://getsongbpm.com">GetSongBPM.com</a>.</p>
+  </section>
+</main>
+</body>
+</html>
